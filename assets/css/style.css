@@ -6,7 +6,7 @@
     border: none;
 }
 
-.logo {
+#logo {
     color: orangered;
     text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif;
