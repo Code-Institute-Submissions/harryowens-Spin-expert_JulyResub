@@ -127,7 +127,7 @@ body {
 /* Benefits section */
 
 #benefits {
-    height: 600px;
+    margin-bottom: 75px;
 }
 
 #benefits-left {
@@ -197,7 +197,7 @@ hr {
 /* First class checklist */
 
 #checklist {
-    height: 600px;
+    margin-bottom: 75px;
 }
 
 #checklist h3 {
@@ -240,11 +240,11 @@ hr {
 /* Spin class details */
 
 #classes {
-    height: 150px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 30px;
+    margin-bottom: 75px;
 }
 
 #classes a {
