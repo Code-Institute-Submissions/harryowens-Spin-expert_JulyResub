@@ -157,3 +157,7 @@ hr {
 #benefits-right > .benefits-heading {
     float: left;
 }
+
+#benefits-right > .benefits-heading h2,  #benefits-right > .benefits-heading p{
+    text-align: right;
+}
