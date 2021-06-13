@@ -188,6 +188,44 @@ hr {
     border-radius: 50%;
 }
 
+/* First class checklist */
+
+#checklist h3 {
+    text-align: center;
+    margin: 30px;
+}
+
+#checklist-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 2px 16px;
+    margin: 30px;
+}
+
+.checklist-item {
+    width: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 4px;
+}
+
+.checklist-item-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.checklist-item-details {
+    padding: 4px;
+}
+
+.checklist-item-details h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
 /* Spin class details */
 
 #classes {
@@ -206,7 +244,7 @@ hr {
 .class-container {
     background-color: #f5f7f9;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 6px;
     padding: 12px;
 }
