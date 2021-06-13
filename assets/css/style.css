@@ -354,4 +354,8 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+    #cover-text {
+        left: 0px;
+    }
 }
