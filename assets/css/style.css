@@ -143,10 +143,17 @@ hr {
     margin: 5px 0;
 }
 
-.benefits-left-heading {
+.benefits-heading {
     width: 60%;
-    float: right;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+}
+
+#benefits-left > .benefits-heading {
+    float: right;
+}
+
+#benefits-right > .benefits-heading {
+    float: left;
 }
