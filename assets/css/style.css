@@ -208,7 +208,7 @@ hr {
 #checklist-items {
     display: flex;
     flex-wrap: wrap;
-    align-items: top;
+    align-items: flex-start;
     justify-content: center;
     gap: 16px;
     padding: 2px 16px;
