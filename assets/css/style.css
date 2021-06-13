@@ -214,6 +214,7 @@ hr {
 .class-instructor {
     width: 110px;
     height: 75px;
+    
 }
 
 .class-details {
@@ -224,5 +225,28 @@ hr {
     background: url('../images/ally_love.webp') no-repeat center left;
     background-size: auto 100%;
     height: 100%;
-    border-radius: 50%;
+}
+
+#denis-morton {
+    background: url('../images/denis_morton.webp') no-repeat center left;
+    background-size: auto 100%;
+    height: 100%;
+}
+
+#cody-rigsby {
+    background: url('../images/cody_rigsby.webp') no-repeat center left;
+    background-size: auto 100%;
+    height: 100%;
+}
+
+#jess-king {
+    background: url('../images/jess_king.webp') no-repeat center left;
+    background-size: auto 100%;
+    height: 100%;
+}
+
+#hannah-corbin {
+    background: url('../images/hannah_corbin.webp') no-repeat center left;
+    background-size: auto 100%;
+    height: 100%;
 }
