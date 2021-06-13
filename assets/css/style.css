@@ -190,6 +190,10 @@ hr {
 
 /* First class checklist */
 
+#checklist {
+    height: 600px;
+}
+
 #checklist h3 {
     text-align: center;
     margin: 30px;
@@ -230,6 +234,7 @@ hr {
 /* Spin class details */
 
 #classes {
+    height: 150px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
