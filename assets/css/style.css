@@ -325,3 +325,22 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* media queries */
+
+/* tablets and smaller */
+
+@media screen and (max-width: 1200px) {
+    
+    #benefits-center {
+        visibility: collapse;
+    }
+
+    #benefits-left {
+        width: 45%;
+    }
+
+    #benefits-right {
+        width: 45%;
+    }
+}
