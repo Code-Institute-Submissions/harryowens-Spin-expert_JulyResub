@@ -198,9 +198,9 @@ hr {
 #checklist-items {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: top;
     justify-content: center;
-    gap: 12px;
+    gap: 16px;
     padding: 2px 16px;
     margin: 30px;
 }
@@ -224,6 +224,7 @@ hr {
 .checklist-item-details h4 {
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
+    margin-bottom: 4px;
 }
 
 /* Spin class details */
