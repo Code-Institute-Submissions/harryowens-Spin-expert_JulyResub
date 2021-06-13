@@ -358,4 +358,24 @@ footer {
     #cover-text {
         left: 0px;
     }
+
+    #benefits {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 150px;
+    }
+
+    .benefits-heading {
+        width: inherit;
+    }
+    
+    #benefits-left, #benefits-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    #benefits-right>.benefits-heading h2,
+    #benefits-right>.benefits-heading p {
+        text-align: center;
+    }
 }
