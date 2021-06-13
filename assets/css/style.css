@@ -12,24 +12,25 @@ body {
     font-family: Ubuntu, sans-serif;
 }
 
-#logo a, #navmenu a {
-    text-decoration: none;
-}
-
-#logo, #navmenu a {
-    text-transform: uppercase;
-}
+/* Navigation bar */
 
 #logo {
     color: orangered;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     font-style: italic;
-    font-size: 200%;
+    font-size: 250%;
     float: left;
 }
 
-/* Navigation bar */
+#logo, #navmenu a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#logo, #navmenu {
+    line-height: 75px;
+}
 
 #navmenu {
     font-size: 120%;
@@ -45,4 +46,8 @@ body {
 
 #navmenu a {
     color: inherit;
+}
+
+#navmenu a:hover {
+    border-bottom: 1px solid #3a3a3a;
 }
