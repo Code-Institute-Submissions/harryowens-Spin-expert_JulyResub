@@ -21,10 +21,11 @@
 #navmenu {
     font-size: 120%;
     letter-spacing: 4px;
+    float: right;
 }
 
 #navmenu li {
-    float: right;
+    float: left;
     list-style: none;
     margin-right: 30px;
 }
