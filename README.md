@@ -2,8 +2,6 @@
 
 Spin Expert is a site for people interested in starting spin classes or beginner spin cyclists to find more information about the benefits of spinning, what to expect from a class, what equipment is needed, and where they can find a class locally. 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
-
 ## Features 
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -15,40 +13,25 @@ In this section, you should go over the different parts of your project, and des
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
-
 - __The benefits__
 
   - The benefits will give the user a brief summary of some of the health & wellbeing benefits of spin classes.
   - The user should feel equipped to make a decision about whether or not to take a spin class after reading this section.
-
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
-
-- __Class types__
-
-  - This section will allow the user to identify the best type of class for them (e.g. Power Zone, Low Impact, etc.). 
-  - This section will be updated as new class types become popular or their details change.
-
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
 - __First class checklist__
 
   - The checklist will list the various pieces of equipment a first-time rider should have, and also include some pre-class preparation tips.
   - The first class checklist will allow users to feel confident that they have what they need and know what to expect before their first spin class. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+- __Class picks__
+
+  - This section will allow the user to identify the best type of class for them (e.g. Power Zone, Low Impact, etc.) and the time it's on this week. 
+  - This section will be updated as new class types become popular or their details change.
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Spin Expert, helping users find other like-minded people.
   - Community is important to users as they will be able to ask questions, find other resources, and get feedback / encouragement.
-
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
@@ -56,18 +39,11 @@ In addition, you may also use this section to discuss plans for additional featu
 
   - This section will allow users to talk to other site users to ask questions and provide support. Users should be able to sign up with their email address or a social media account via OAuth.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+I have confirmed that each section of the site displays well across a variety of screensizes, using media queries to adjust certain elements for different screen sizes as needed.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+I was keen to "bake in" responsiveness in some sections by using card design patterns with concepts such as flexbox, which I read about when studying the css fundamentals course. This allowed me to make both the first class checklist and class picks section to reconfigure the layout automatically, without media queries. I also used the techniques I learned in the Love Running project to create the benefits section in a way that required media queries; this seemed considerably more cumbersome than using small, fixed-size elements that can move from horizontal rows to stacked columns dynamically, though I recognise that both techniques have their pros and cons.
 
 ### Validator Testing 
 
