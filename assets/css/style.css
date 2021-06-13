@@ -113,16 +113,16 @@ body {
     }
 }
 
+.section-title {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 200%;
+}
+
 /* Benefits section */
 
 #benefits {
     height: 600px;
-}
-
-#benefits-title {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 200%;
 }
 
 #benefits-left {
@@ -183,6 +183,45 @@ hr {
 
 #circle-cover-bg {
     background: url('../images/spin_class_participants_cropped.jpg') no-repeat center center;
+    background-size: auto 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* Spin class details */
+
+#classes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+#classes h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 120%;
+}
+
+.class-container {
+    background-color: #f5f7f9;
+    display: flex;
+    justify-content: space-between;
+    margin: 6px;
+    padding: 12px;
+}
+
+.class-instructor {
+    width: 110px;
+    height: 75px;
+}
+
+.class-details {
+    width: 110px;
+}
+
+#ally-love {
+    background: url('../images/ally_love.webp') no-repeat center left;
     background-size: auto 100%;
     height: 100%;
     border-radius: 50%;
