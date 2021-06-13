@@ -127,7 +127,7 @@ body {
 /* Benefits section */
 
 #benefits {
-    margin-bottom: 75px;
+    margin-bottom: 150px;
 }
 
 #benefits-left {
@@ -197,7 +197,7 @@ hr {
 /* First class checklist */
 
 #checklist {
-    margin-bottom: 75px;
+    margin-bottom: 150px;
 }
 
 #checklist h3 {
@@ -244,7 +244,7 @@ hr {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 30px;
-    margin-bottom: 75px;
+    margin-bottom: 150px;
 }
 
 #classes a {
