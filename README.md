@@ -24,39 +24,27 @@ In this section, you should go over the different parts of your project, and des
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
+- __Class types__
+
+  - This section will allow the user to identify the best type of class for them (e.g. Power Zone, Low Impact, etc.). 
+  - This section will be updated as new class types become popular or their details change.
+
+![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+
 - __First class checklist__
 
   - The checklist will list the various pieces of equipment a first-time rider should have, and also include some pre-class preparation tips.
   - The first class checklist will allow users to feel confident that they have what they need and know what to expect before their first spin class. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
-- __Find a class__
-
-  - This section will allow the user to find a spin class stuidio in Belfast, Northern Ireland. 
-  - This section will be updated as new studios open or their details change.
-
 ![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites for Spin Expert, helping users find other like-minded people.
+  - Community is important to users as they will be able to ask questions, find other resources, and get feedback / encouragement.
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -64,7 +52,11 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- Another feature idea
+- __Community forum & signup__
+
+  - This section will allow users to talk to other site users to ask questions and provide support. Users should be able to sign up with their email address or a social media account via OAuth.
+
+![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
 ## Testing 
 
