@@ -51,3 +51,11 @@ body {
 #navmenu a:hover, .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+/* Hero image */
+
+#hero-image {
+    height: 600px;
+    background: url('../images/hero_image.jpg') no-repeat center center;
+    background-size: 100% auto;
+}
