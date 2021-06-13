@@ -33,6 +33,7 @@ body {
 }
 
 #navmenu {
+    font-family: Ubuntu, sans-serif;
     font-size: 120%;
     letter-spacing: 2px;
     float: right;
@@ -52,7 +53,7 @@ body {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Hero image */
+/* Hero image and cover text */
 
 #hero-image {
     height: 600px;
@@ -70,6 +71,34 @@ body {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: white;
+}
+
+#cover-text {
+    font-family: Ubuntu, sans-serif;
+    font-size: 130%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    width: 300px;
+    height: 150px;
+
+    padding-top: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background-color: orangered;
+    opacity: 0.7;
+
+    bottom: 75px;
+    right: 150px;
+
+    position: absolute;
 }
 
 /* hero image zoom effect */
