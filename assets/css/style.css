@@ -112,3 +112,27 @@ body {
         transform: scale(1.1);
     }
 }
+
+/* Benefits section */
+
+#benefits {
+    height: 600px;
+}
+
+#benefits-left {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#benefits-right {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#benefits-center {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+}
