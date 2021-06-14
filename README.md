@@ -57,7 +57,9 @@ In this section, you should go over the different parts of your project, and des
 
 ## Testing 
 
-I have confirmed that each section of the site displays well across a variety of screensizes, using media queries to adjust certain elements for different screen sizes as needed.
+I have confirmed that each section of the site displays well across a variety of screensizes, testing using Firefox Developer Tools and also by opening the site an a laptop, tablet and phone to confirm that the media queries correctly adjust certain elements for different screen sizes as needed.
+
+I have tested cross-browser support by viewing the site in Firefox, Chrome and Safari with no issues observed.
 
 I was keen to "bake in" responsiveness in some sections by using card design patterns with concepts such as flexbox, which I read about when studying the css fundamentals course. This allowed me to make both the first class checklist and class picks section to reconfigure the layout automatically, without media queries. I also used the techniques I learned in the Love Running project to create the benefits section in a way that required media queries; this seemed considerably more cumbersome than using small, fixed-size elements that can move from horizontal rows to stacked columns dynamically, though I recognise that both techniques have their pros and cons.
 
