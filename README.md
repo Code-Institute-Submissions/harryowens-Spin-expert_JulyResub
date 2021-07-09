@@ -67,6 +67,8 @@ An example of the responsive checklist produced without the need for media queri
 
 ![Checklist tablet screenshot](assets/screenshots/screen_responsive_checklist.png "Responsive checklist")
 
+An interesting point noted when testing was that when the screen width was smaller than 1330px (which is the hero image height of 600px * hero image aspect ratio) there was always a variable-size top and bottom border on the hero image since the aspect ratio of the image did not match its container when the size of the container was set to an absolute value of 600px. This was corrected by making the height of the container and image relative to the viewport width, i.e. using `vw` units, which also avoided the need to make the image smaller using media queries when the screen size is smaller. This way, the aspect ratio of the image is also maintained. 
+
 ### Validator Testing 
 
 - HTML
