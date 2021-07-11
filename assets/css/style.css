@@ -57,6 +57,13 @@ body {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/* section divider line */
+.section-divider {
+    border-top: 1px solid #c7c7c7;
+    width: 70%;
+    margin: 50px auto;
+}
+
 /* Hero image and cover text */
 
 #hero-image, #hero-outer {
@@ -149,12 +156,6 @@ hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px 0;
-}
-
-.section-divider {
-    border-top: 1px solid #c7c7c7;
-    width: 70%;
-    margin: 50px auto;
 }
 
 .benefits-heading {
