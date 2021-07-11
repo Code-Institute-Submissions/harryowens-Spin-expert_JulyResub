@@ -384,8 +384,9 @@ footer {
         text-align: center;
     }
 
-    /* remove bottom border on bottom item when elements are stacked vertically  */
-    #benefits > div > div:last-child {
+    /* remove bottom border on bottom benefit
+    when elements are stacked vertically  */
+    .benefits-heading:last-child {
         margin-bottom: 0;
     }
 
