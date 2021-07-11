@@ -312,7 +312,7 @@ hr {
 /* footer */
 
 footer {
-    height: 150px;
+    height: auto;
 }
 
 #social-links {
