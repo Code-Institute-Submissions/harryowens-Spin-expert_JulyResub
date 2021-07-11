@@ -349,6 +349,8 @@ footer {
     }
 }
 
+/* smaller tablets */
+
 @media screen and (max-width: 900px) {
     
     #navmenu {
@@ -390,6 +392,8 @@ footer {
     }
 
 }
+
+/* phones */
 
 @media screen and (max-width: 600px) {
 
