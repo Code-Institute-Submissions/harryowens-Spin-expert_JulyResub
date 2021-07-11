@@ -136,7 +136,6 @@ body {
 /* Benefits section */
 
 #benefits {
-    margin-bottom: 150px;
     overflow: hidden;
 }
 
@@ -383,6 +382,11 @@ footer {
     #benefits-right>.benefits-heading h2,
     #benefits-right>.benefits-heading p {
         text-align: center;
+    }
+
+    /* remove bottom border on bottom item when elements are stacked vertically  */
+    #benefits > div > div:last-child {
+        margin-bottom: 0;
     }
 
 }
