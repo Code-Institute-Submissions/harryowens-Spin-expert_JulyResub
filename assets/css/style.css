@@ -59,7 +59,7 @@ body {
 
 /* section divider line */
 .section-divider {
-    border-top: 1px solid #c7c7c7;
+    border-top: 1px solid orangered;
     width: 70%;
     margin: 50px auto;
 }
