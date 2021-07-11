@@ -151,6 +151,12 @@ hr {
     margin: 5px 0;
 }
 
+.section-divider {
+    border-top: 1px solid #9b9b9b;
+    width: 70%;
+    margin: 50px auto;
+}
+
 .benefits-heading {
     width: 60%;
     line-height: 20px;
@@ -198,10 +204,6 @@ hr {
 }
 
 /* First class checklist */
-
-#checklist {
-    margin-bottom: 150px;
-}
 
 #checklist h3 {
     text-align: center;
@@ -366,7 +368,6 @@ footer {
     #benefits {
         width: 90%;
         margin: 0 auto;
-        margin-bottom: 150px;
     }
 
     .benefits-heading {
