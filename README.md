@@ -57,6 +57,10 @@ In this section, you should go over the different parts of your project, and des
 
 ## Testing 
 
+### Links
+
+All internal links in the navigation area take the user to the correct area of the site. All external links point to the correct place and open in a new tab, as intended.
+
 ### Responsive
 
 I have confirmed that each section of the site displays well across a variety of screensizes, testing using Firefox Developer Tools and also by opening the site an a laptop, tablet and phone to confirm that the media queries correctly adjust certain elements for different screen sizes as needed.
